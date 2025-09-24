@@ -1,3 +1,3 @@
-def sample(){
-  sh ' echo "This is agasthya, trying sample shared library" '
+def call(name='agasthya'){
+  sh ' echo "This is $name, trying sample shared library" '
 }
